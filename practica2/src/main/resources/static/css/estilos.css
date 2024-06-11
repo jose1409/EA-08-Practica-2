@@ -1,0 +1,105 @@
+#encabezado {
+    width: 100%;
+    border: 2px solid #000;
+    background-image: url("https://img.freepik.com/free-vector/gray-line-drawings-organic-shapes-background_1409-3947.jpg?t=st=1717882320~exp=1717885920~hmac=e42a1e7e10592da8dae62fc2a2a59e0c25a1fa4468742fc42091c00d911bf5a6&w=1380");
+
+}
+
+#encabezado h1 {
+    text-align: center;
+}
+
+#menu {
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    border: 2px solid #000;
+    margin-top: 0.4%;
+    padding-bottom: 1px;
+    display: flex;
+    justify-content: space-around;    
+}
+
+#menu a {
+    color: #000
+}
+
+a { /* Aqui quito el subrayado del enlace */
+    text-decoration: none;
+}
+
+a:hover { /* Aqui le doy color cuando el cursor est sobre el enlace*/
+    background: #9b9d9b;
+}
+
+#barraLateral {
+    position: fixed;
+    background-image: url("https://img.freepik.com/premium-photo/scanned-paper-old-vintage-wrinkled-minimalist-white-black-newspaper-texture-overlay_820074-530.jpg?w=740");
+    width: 20%; /* Ancho de la imagen */
+    height: 81%; /* Alto de la imagen */
+}
+
+#profile {
+    width: 150px; /* Ancho de la imagen */
+    height: 150px; /* Alto de la imagen */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    border: 1px solid #000; 
+    object-fit: cover; /* Ajusta la imagen para que cubra completamente el contenedor */
+    margin-left: 29%;
+    margin-top: 2%;
+}
+
+#barraLateral p {
+    padding: 3%;
+    border: #000;
+    text-align: center;
+    font-size: 25px;
+}
+
+#barraLateral h1 {
+    border: #000;
+    text-align: center;
+}
+
+#contenido {
+    position: fixed;
+    background-color: #d9d3d3;
+    left: 20.5%;
+    width: 60%;
+    height: auto;
+    align-items: center; /* Centra los elementos horizontalmente */
+    text-align: center; /* Centra el texto dentro de la sección */
+}
+
+#parrafoContenido {
+    font-size: 20px; /* Tamaño de fuente */
+    color: #333; 
+}
+
+#videoContenido {
+    margin-bottom: 2px;
+}
+
+#barraLateralAnuncios {
+    position: fixed;
+    height: 81%;
+    width: 20.3%;
+    left: 79.5%;
+    background-color: violet;
+}
+
+#anuncio {
+    width: 320px; /* Ancho de la imagen */
+    height: 350px; /* Alto de la imagen */
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+#barraLateralAnuncios h1 {
+    text-align: center;
+    margin: 0%;
+    color: blue;
+}
+
+
+
